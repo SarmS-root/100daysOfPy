@@ -42,5 +42,5 @@ dict = {}
 import pandas
 df = pandas.DataFrame(dict)
 # //pandas df iteraion:   (ROW: Key Value)
-for (index, row) in df.itterows():
+for (index, row) in df.iterrows():
 	print(row.key + row.value)
